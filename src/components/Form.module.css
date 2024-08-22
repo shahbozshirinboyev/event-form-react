@@ -26,3 +26,10 @@ h2 {
     padding: 8px 12px;
     margin-top: 20px;
 }
+
+.form-reset-btn {
+    background-color: rgb(108, 204, 248);
+    border: 0px;
+    padding: 8px 12px;
+    margin-top: 20px;
+}

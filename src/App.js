@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <h2>Event Form [React.JS]</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, pariatur dicta. Blanditiis suscipit laboriosam quae?</p>
-      <button className='btn' onClick={() => { setShowModal(true) }}>Add Event</button>
+      <button className='btn' onClick={() => { setShowModal(true) }}><i class="bi bi-plus-lg"></i> Add Event</button>
       <br />
       {showModal && <Modal setShowModal={setShowModal} />}
     </div>
