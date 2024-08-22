@@ -1,0 +1,28 @@
+.new-event-form label,
+.new-event-form input {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.form-submit-btn {
+    background-color: yellowgreen;
+    padding: 8px 12px;
+    border: 0px;
+    margin-top: 20px;
+}
+
+.form-close-btn {
+    background-color: rgb(248, 129, 108);
+    border: 0px;
+    padding: 8px 12px;
+    margin-top: 20px;
+}
