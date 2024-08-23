@@ -8,7 +8,7 @@ function EventList({ events, handleDelete}) {
             {events.map((event) => {
                 return (
                     <div key={event.id} className={style.card}>
-                        <h4>{event.title} <br /> {event.date} </h4>
+                        <h4>{event.title} <br /> {event.location} - {event.date} </h4>
                         <button onClick={() => handleDelete(event.id)}>
                             <i class="bi bi-trash"></i> Delete this item
                         </button>
