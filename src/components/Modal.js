@@ -1,12 +1,12 @@
 import style from './Modal.module.css'
 import Form from './Form'
 
-function Modal({setShowModal}) {
+function Modal({ setShowModal, newEvent}) {
     console.log()
     return (
         <div className={style['modal-backdrop']}>
             <div className={style['modal']}>
-                <Form setShowModal={setShowModal} />
+                <Form setShowModal={setShowModal} newEvent={newEvent} />
             </div>
         </div>
     )
